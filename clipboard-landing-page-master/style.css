@@ -80,7 +80,7 @@
     width: 600px;
 }
 .first-image img {
-    width: 100%;
+    width: 600px;
 }
 .services_container{
 display: flex;
@@ -103,6 +103,7 @@ padding-top: 90px;
     justify-content: space-between;
     /* flex-direction: column; */
     padding-top: 60px;
+    gap: 5rem;
 }
 
 .content{
@@ -112,21 +113,132 @@ padding-top: 90px;
     align-items: flex-start;
 }
 
-.access-container{
-    padding: 50px 200px 0px 100px;
-}
-
 .paragraph{
     font-weight: 400;
     font-size: 18px;
 }
 
-.second-image{
-    padding-top: 100px;
+#second-image{
+    padding-top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 .content-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.access-paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 15em;
+    padding-top: 10px;
+}
+
+.access-container img{
+    padding:50px 0px 0px;
+
+}
+
+.style{
+    padding-top: 50px;
+}
+
+.Next{
+text-align: center;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+
+}
+.blacklists,
+.plain,
+.sneak {
+ width: 400px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ gap: 5px;
+ padding: 50px;
+ flex: 1 1 0px;
+ line-height: 1.6;
+}
+
+.image-logos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 80%
+}
+
+.google,
+.ibm,
+.microsoft,
+.hp,
+.vectors {
+    width: 100%
+}
+
+#bottom{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.bottom-paragraph {
+    padding: 15px 300px 0 300px;
+}
+.all-buttons{
+padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.footer-section{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+    background-color: #E7E9EA;
+    padding: 50px 0px;
+}
+
+.footer-logo{
+    width: 5%;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.footer-section Social-images{
+width: 25%;
+gap: 2em;
+}
+
+.Social-images img{
+    margin-right: 1rem;
 }

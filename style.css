@@ -1,0 +1,334 @@
+/* Cyan hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
+
+### Neutral
+
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%)
+
+### Fonts
+
+- Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
+- Weights: 400, 600 */
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.description_container{
+    text-align: center;
+    padding: 5rem 2rem;
+    background: url('./images/bg-header-desktop.png') no-repeat;
+    background-size:cover;
+}
+.description_container h1{
+    font-size: 4rem;
+    margin: 1.5rem auto;
+}
+h2{
+font-size: 3rem;
+font-weight: 600;
+margin: 1rem;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    /* margin: 1rem; */
+}
+
+
+p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: hsl(210, 10%, 33%);
+    line-height: 1.8rem;
+    margin: 0.5rem 0;
+}
+
+ .btn-container{
+    padding: 2rem 1rem;
+ }
+
+
+.IOS{
+    color: #ffffff;
+    background-color: hsl(171, 66%, 44%);
+    border: 1px solid hsl(171, 66%, 44%);
+    border-radius: 25px;
+    padding: 10px 35px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: relative;
+    margin:1rem;
+}
+.IOS:hover{
+    color: darkred;
+}
+
+.Mac{
+    color: #ffffff;
+    background-color: hsl(233, 100%, 69%);
+    border: 1px solid hsl(233, 100%, 69%);
+    border-radius: 25px;
+    padding: 10px 35px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: relative;
+    margin: 1rem;
+}
+.Mac:hover{
+    color: darkred;
+}
+
+.first-image img {
+    width: 100%;
+    position: relative;
+    left: -10%;
+}
+
+.services_container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: left;
+padding-top: 90px;
+width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    padding-top: 60px;
+    gap: 5rem;
+    
+}
+
+.content{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#second-image{
+    padding-top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.content-container {
+    
+    margin: 0 auto;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: fit-content;
+}
+
+.access-container img{
+    padding:50px 0px 0px;
+
+}
+
+.Next{
+text-align: center;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+
+}
+.blacklists,
+.plain,
+.sneak {
+ flex-basis: 30%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ gap: 5px;
+ padding: 50px;
+ flex: 1 1 0px;
+ line-height: 1.6;
+}
+
+.image-logos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 80%
+}
+
+.image-logos img{
+    max-width: 100%;
+    height:auto;
+}
+
+.google,
+.ibm,
+.microsoft,
+.hp,
+.vectors {
+    width: 100%
+}
+
+#bottom{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.bottom-paragraph {
+    padding: 15px 300px 0 300px;
+}
+.all-buttons{
+padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.a button{
+    text-decoration: none;
+}
+
+/* .footer-section{
+    column-gap: 5rem;
+    background-color: #E7E9EA;
+    padding: 50px 0px;
+}
+
+.footer-logo{
+    width: 5%;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+ .footer-section Social-images{
+width: 25%;
+gap: 2em; 
+
+}
+
+.Social-images img{
+    margin-right: 1rem; */
+
+nav{
+    background-color: #E7E9EA;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    column-gap:10%;
+    row-gap: 5%;
+}
+
+figure img{
+    height: 5rem;
+}
+
+ul{
+list-style-type: none;
+color: unset;
+gap: 2rem;
+}
+li{
+margin: 20px 0;
+}
+
+ a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+    font-weight: 500;
+ }
+ a:hover{
+    color: blue;
+ }
+ .Social-images img {
+margin: 0 10px;
+ }
+ 
+@media  screen and (max-width:750px) {
+    .container{
+        flex-direction: column;
+    }
+    .first-image img{
+        width: 100%;
+        position: relative;
+        left: unset;
+    }
+    .features{
+       flex-direction: column;
+    }
+    .image-logos{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+        align-items: center;
+    }
+    .content h3{
+        text-align: center;
+    }
+    .content{
+        align-items: unset;
+    }
+    p{
+        width: unset;
+        font-size: 2rem;
+    }
+    .google, .ibm, .microsoft, .hp, .vectors {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .access-container img{
+        width: 100%;
+    }
+    .first-image{
+        width: 90%;
+    }
+    .all-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        text-align: center;
+    }
+    
+    li{
+    
+    }
+    .Social-images{
+      display: flex;
+      margin: 10px 20px;
+      justify-content: center;
+      text-align: center;
+    }
+}
